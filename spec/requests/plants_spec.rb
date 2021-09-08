@@ -71,5 +71,4 @@ RSpec.describe "Plants", type: :request do
       expect(response).to have_http_status(:created)
     end
   end
-
 end
